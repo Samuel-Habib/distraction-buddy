@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09AA14A92DA576C90064AA30 /* distraction-counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "distraction-counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		09AA14B72DA576CC0064AA30 /* distraction-counterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "distraction-counterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		09AA14C12DA576CC0064AA30 /* distraction-counterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "distraction-counterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09AA14A92DA576C90064AA30 /* distraction-buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "distraction-buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09AA14B72DA576CC0064AA30 /* distraction-buddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "distraction-buddyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09AA14C12DA576CC0064AA30 /* distraction-buddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "distraction-buddyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		09AA14AA2DA576C90064AA30 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				09AA14A92DA576C90064AA30 /* distraction-counter.app */,
-				09AA14B72DA576CC0064AA30 /* distraction-counterTests.xctest */,
-				09AA14C12DA576CC0064AA30 /* distraction-counterUITests.xctest */,
+				09AA14A92DA576C90064AA30 /* distraction-buddy.app */,
+				09AA14B72DA576CC0064AA30 /* distraction-buddyTests.xctest */,
+				09AA14C12DA576CC0064AA30 /* distraction-buddyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		09AA14A82DA576C90064AA30 /* distraction-counter */ = {
+		09AA14A82DA576C90064AA30 /* distraction-buddy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 09AA14CB2DA576CC0064AA30 /* Build configuration list for PBXNativeTarget "distraction-counter" */;
+			buildConfigurationList = 09AA14CB2DA576CC0064AA30 /* Build configuration list for PBXNativeTarget "distraction-buddy" */;
 			buildPhases = (
 				09AA14A52DA576C90064AA30 /* Sources */,
 				09AA14A62DA576C90064AA30 /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				09AA14AB2DA576C90064AA30 /* distraction-counter */,
 			);
-			name = "distraction-counter";
+			name = "distraction-buddy";
 			packageProductDependencies = (
 			);
 			productName = "distraction-counter";
-			productReference = 09AA14A92DA576C90064AA30 /* distraction-counter.app */;
+			productReference = 09AA14A92DA576C90064AA30 /* distraction-buddy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		09AA14B62DA576CC0064AA30 /* distraction-counterTests */ = {
+		09AA14B62DA576CC0064AA30 /* distraction-buddyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 09AA14CE2DA576CC0064AA30 /* Build configuration list for PBXNativeTarget "distraction-counterTests" */;
+			buildConfigurationList = 09AA14CE2DA576CC0064AA30 /* Build configuration list for PBXNativeTarget "distraction-buddyTests" */;
 			buildPhases = (
 				09AA14B32DA576CC0064AA30 /* Sources */,
 				09AA14B42DA576CC0064AA30 /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				09AA14BA2DA576CC0064AA30 /* distraction-counterTests */,
 			);
-			name = "distraction-counterTests";
+			name = "distraction-buddyTests";
 			packageProductDependencies = (
 			);
 			productName = "distraction-counterTests";
-			productReference = 09AA14B72DA576CC0064AA30 /* distraction-counterTests.xctest */;
+			productReference = 09AA14B72DA576CC0064AA30 /* distraction-buddyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		09AA14C02DA576CC0064AA30 /* distraction-counterUITests */ = {
+		09AA14C02DA576CC0064AA30 /* distraction-buddyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 09AA14D12DA576CC0064AA30 /* Build configuration list for PBXNativeTarget "distraction-counterUITests" */;
+			buildConfigurationList = 09AA14D12DA576CC0064AA30 /* Build configuration list for PBXNativeTarget "distraction-buddyUITests" */;
 			buildPhases = (
 				09AA14BD2DA576CC0064AA30 /* Sources */,
 				09AA14BE2DA576CC0064AA30 /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				09AA14C42DA576CC0064AA30 /* distraction-counterUITests */,
 			);
-			name = "distraction-counterUITests";
+			name = "distraction-buddyUITests";
 			packageProductDependencies = (
 			);
 			productName = "distraction-counterUITests";
-			productReference = 09AA14C12DA576CC0064AA30 /* distraction-counterUITests.xctest */;
+			productReference = 09AA14C12DA576CC0064AA30 /* distraction-buddyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 09AA14A42DA576C90064AA30 /* Build configuration list for PBXProject "distraction-counter" */;
+			buildConfigurationList = 09AA14A42DA576C90064AA30 /* Build configuration list for PBXProject "distraction-buddy" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				09AA14A82DA576C90064AA30 /* distraction-counter */,
-				09AA14B62DA576CC0064AA30 /* distraction-counterTests */,
-				09AA14C02DA576CC0064AA30 /* distraction-counterUITests */,
+				09AA14A82DA576C90064AA30 /* distraction-buddy */,
+				09AA14B62DA576CC0064AA30 /* distraction-buddyTests */,
+				09AA14C02DA576CC0064AA30 /* distraction-buddyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		09AA14B92DA576CC0064AA30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 09AA14A82DA576C90064AA30 /* distraction-counter */;
+			target = 09AA14A82DA576C90064AA30 /* distraction-buddy */;
 			targetProxy = 09AA14B82DA576CC0064AA30 /* PBXContainerItemProxy */;
 		};
 		09AA14C32DA576CC0064AA30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 09AA14A82DA576C90064AA30 /* distraction-counter */;
+			target = 09AA14A82DA576C90064AA30 /* distraction-buddy */;
 			targetProxy = 09AA14C22DA576CC0064AA30 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -408,7 +408,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.samdesigns.distraction-counter";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samdesigns.distraction-buddy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -435,7 +435,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.samdesigns.distraction-counter";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samdesigns.distraction-buddy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -457,7 +457,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/distraction-counter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/distraction-counter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/distraction-buddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/distraction-buddy";
 			};
 			name = Debug;
 		};
@@ -475,7 +475,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/distraction-counter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/distraction-counter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/distraction-buddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/distraction-buddy";
 			};
 			name = Release;
 		};
@@ -514,7 +514,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		09AA14A42DA576C90064AA30 /* Build configuration list for PBXProject "distraction-counter" */ = {
+		09AA14A42DA576C90064AA30 /* Build configuration list for PBXProject "distraction-buddy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09AA14C92DA576CC0064AA30 /* Debug */,
@@ -523,7 +523,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		09AA14CB2DA576CC0064AA30 /* Build configuration list for PBXNativeTarget "distraction-counter" */ = {
+		09AA14CB2DA576CC0064AA30 /* Build configuration list for PBXNativeTarget "distraction-buddy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09AA14CC2DA576CC0064AA30 /* Debug */,
@@ -532,7 +532,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		09AA14CE2DA576CC0064AA30 /* Build configuration list for PBXNativeTarget "distraction-counterTests" */ = {
+		09AA14CE2DA576CC0064AA30 /* Build configuration list for PBXNativeTarget "distraction-buddyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09AA14CF2DA576CC0064AA30 /* Debug */,
@@ -541,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		09AA14D12DA576CC0064AA30 /* Build configuration list for PBXNativeTarget "distraction-counterUITests" */ = {
+		09AA14D12DA576CC0064AA30 /* Build configuration list for PBXNativeTarget "distraction-buddyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09AA14D22DA576CC0064AA30 /* Debug */,
