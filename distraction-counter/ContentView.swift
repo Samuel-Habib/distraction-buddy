@@ -24,19 +24,19 @@ struct ContentView: View {
     @State var distList: [String] = []
     
     var body: some View {
-        VStack {
+        VStack (alignment: .leading) {
             
             // TODO: rename to distraction buddy
 
            TextField("What's distracting you today?", text: $dist)
                 .padding(.all, 5)
                 .overlay(RoundedRectangle(cornerRadius: 8).stroke(Color.gray, lineWidth: 1))
-                .frame(width: 300, height: 50)
+                .frame(width: 200, height: 50)
                 .onSubmit {
                     distList.append(dist)
                 }
             
-            Text("You've been distracted: \(DCounter) times. Congrats!")
+            Text("\(DCounter) Distractions.")
             
             ForEach(Array(distList.enumerated()), id: \.offset) { index, item in
                 distItem(
@@ -47,9 +47,11 @@ struct ContentView: View {
             }
             
             
-            Button(action: {DCounter = 0}, label: {Text("Day's Over, See you tomorrow!")})
-                .frame(width: 300,  alignment: .leading)
-        }.padding()
+            Button(action: {DCounter = 0}, label: {Text("Day's Over!")})
+                .frame(width: 200,  alignment: .leading)
+        }
+        .frame(alignment: .leading)
+        .padding()
     }
 }
 
@@ -63,7 +65,7 @@ struct distItem: View{
             Button(action: {Action()}, label: {Label1})
             Button(action: {Action2()}, label: {Label2})
             
-        }.frame(width: 300, alignment: .leading)
+        }.frame(width: 200, alignment: .leading)
     }
 }
 
