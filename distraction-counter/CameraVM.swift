@@ -19,7 +19,8 @@ final class CameraVM: ObservableObject {
             self.session = captureSession()
         case .notDetermined:
             AVCaptureDevice.requestAccess(for: .video) { granted in
-                if granted {
+                guard granted else {return}
+                DispatchQueue.main.async {
                     self.session = self.captureSession()
                 }
             }
@@ -37,9 +38,11 @@ final class CameraVM: ObservableObject {
     
     func start() async {
         session?.startRunning()
+        print("started running")
     }
     
     func captureSession() -> AVCaptureSession?{
+        print("capture session started")
         let captureSession = AVCaptureSession()
         // Find the default video device.
         captureSession.beginConfiguration()
@@ -59,7 +62,6 @@ final class CameraVM: ObservableObject {
             print("\(error)")
             return nil
         }
-        
         
     }
     
@@ -82,12 +84,6 @@ struct CameraNSView: NSViewRepresentable {
     func updateNSView(_ nsView: PreviewView, context: Context) {
         nsView.session = session
     }
-    
-    func makeCoordinator() -> () {
-        
-    }
-    
-    
     
 }
 

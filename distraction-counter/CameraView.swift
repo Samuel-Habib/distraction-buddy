@@ -12,7 +12,7 @@ struct CameraView: View {
     var body: some View {
         ZStack {
             CameraNSView(session: cameraVM.session)
-        }.task {
+        }.task(id: cameraVM.session) {
             await cameraVM.start()
         }
     }
