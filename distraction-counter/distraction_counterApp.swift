@@ -11,7 +11,7 @@ import SwiftUI
 struct distraction_counterApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CameraView()
         }
     }
 }

@@ -24,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09A7F7C22F1AC0FC0072F748 /* distraction-buddy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "distraction-buddy-Info.plist"; sourceTree = "<group>"; };
 		09AA14A92DA576C90064AA30 /* distraction-buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "distraction-buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09AA14B72DA576CC0064AA30 /* distraction-buddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "distraction-buddyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09AA14C12DA576CC0064AA30 /* distraction-buddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "distraction-buddyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +76,7 @@
 		09AA14A02DA576C90064AA30 = {
 			isa = PBXGroup;
 			children = (
+				09A7F7C22F1AC0FC0072F748 /* distraction-buddy-Info.plist */,
 				09AA14AB2DA576C90064AA30 /* distraction-counter */,
 				09AA14BA2DA576CC0064AA30 /* distraction-counterTests */,
 				09AA14C42DA576CC0064AA30 /* distraction-counterUITests */,
@@ -402,6 +404,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "distraction-buddy-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app records you to check if you're in front of your computer or not.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -429,6 +433,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "distraction-buddy-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app records you to check if you're in front of your computer or not.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
